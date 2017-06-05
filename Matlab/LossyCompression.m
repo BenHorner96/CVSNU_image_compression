@@ -1,0 +1,1 @@
+function c = LossyCompression(img)
