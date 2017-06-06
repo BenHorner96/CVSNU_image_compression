@@ -1,4 +1,4 @@
-function img = decompress(compressedImg, dict, width, height)
+function img = decompress(compressedImg, dict, width, height, depth)
 % decompresses the image
 % compressedImg: return value of compress()
 % dict: return value of compress()
@@ -25,4 +25,4 @@ while i <= size(compressedImg, 2)
     i = i + 1;
 end
 
-img = reshape(img, width, height)';
+img = reshape(img, height, width,depth);

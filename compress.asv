@@ -50,3 +50,6 @@ end
 
 compressedImg = compressedImg - 1;
 dict = dict - 1;
+
+
+
