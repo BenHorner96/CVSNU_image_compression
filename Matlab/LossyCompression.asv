@@ -1,0 +1,34 @@
+function [dictionary convert] = LossyCompression(img,threshold)
+convert = rgb2gray(img);
+%[x y] = size(img);
+convert = convert(:);
+convert = convert+1;
+dictionary = zeros(1,2);
+prev = zeros(3);
+%hash = zeros(
+
+while size(convert) ~= size(prev)
+    prev = convert;
+    s = 256+size(dictionary,1)-1;
+    hash = cell(s^2,1);
+    for i = 1:size(convert,1)-1
+        hash{convert(i)*s+convert(i+1)} = [hash{convert(i)*s+convert(i+1)}; i];
+    end
+    
+    i = 1;
+    while(i <= size(convert,1) - 1)
+        if(size(hash{convert(i)*s+convert(i+1)},1) >= threshold)
+            hash{convert(i)*s+convert(i+1)} = 256 + size(dictionary,1);
+            dictionary = [dictionary; convert(i), convert(i+1)];
+        end
+    end
+    
+    dictionary = unique(dictionary,'rows');
+    
+    temp = zeros(size(convert));
+    i = 2;
+    while(i <= size(img,1))
+        
+    end
+end
+
