@@ -1,8 +1,10 @@
 function [huffDict, comp] = createHuffmanDict(img, dict)
 s = 256+size(dict,1);
+%{
 if(min(dict(1,:)) < 0)
     s = s - min(dict(:,1));
 end
+%}
 counts = zeros(s,1);
 
 img = img + 1;
@@ -22,11 +24,11 @@ for i = 1:size(dict,1)
 end
 img = img - 1;
 dict = dict - 1;
-
+%{
 if(min(dict(:,1) < 0))
     counts = [counts((s+min(dict(:,1))+1:end));counts(1:s+min(dict(:,1)))];
 end
-
+%}
 
 counts = counts(counts~=0);
 

@@ -1,0 +1,188 @@
+==================================================
+Image: img1.png
+-----------------------------------
+Threshold: 2
+Time to compress: 0.453872
+Bitmap is 0.166433 of original
+Time to decompress: 0.032132
+-----------------------------------
+Threshold: 3
+Time to compress: 0.484243
+Bitmap is 0.141800 of original
+Time to decompress: 0.028960
+-----------------------------------
+Threshold: 4
+Time to compress: 0.478349
+Bitmap is 0.132100 of original
+Time to decompress: 0.029385
+-----------------------------------
+Threshold: 5
+Time to compress: 0.477832
+Bitmap is 0.127033 of original
+Time to decompress: 0.030271
+-----------------------------------
+Threshold: 6
+Time to compress: 0.501553
+Bitmap is 0.126067 of original
+Time to decompress: 0.034174
+-----------------------------------
+Threshold: 7
+Time to compress: 0.534263
+Bitmap is 0.124000 of original
+Time to decompress: 0.027578
+-----------------------------------
+Threshold: 8
+Time to compress: 0.486055
+Bitmap is 0.122367 of original
+Time to decompress: 0.028183
+-----------------------------------
+Threshold: 9
+Time to compress: 0.476990
+Bitmap is 0.122100 of original
+Time to decompress: 0.027951
+-----------------------------------
+Threshold: 10
+Time to compress: 0.467599
+Bitmap is 0.122033 of original
+Time to decompress: 0.028586
+==================================================
+Image: img2.png
+-----------------------------------
+Threshold: 2
+Time to compress: 8.246239
+Bitmap is 0.703759 of original
+Time to decompress: 0.103068
+-----------------------------------
+Threshold: 3
+Time to compress: 7.567369
+Bitmap is 0.662561 of original
+Time to decompress: 0.104629
+-----------------------------------
+Threshold: 4
+Time to compress: 7.986579
+Bitmap is 0.648628 of original
+Time to decompress: 0.105822
+-----------------------------------
+Threshold: 5
+Time to compress: 8.321634
+Bitmap is 0.647040 of original
+Time to decompress: 0.108359
+-----------------------------------
+Threshold: 6
+Time to compress: 8.406791
+Bitmap is 0.651337 of original
+Time to decompress: 0.111741
+-----------------------------------
+Threshold: 7
+Time to compress: 6.704534
+Bitmap is 0.657951 of original
+Time to decompress: 0.112071
+-----------------------------------
+Threshold: 8
+Time to compress: 8.489558
+Bitmap is 0.665365 of original
+Time to decompress: 0.129297
+-----------------------------------
+Threshold: 9
+Time to compress: 6.634026
+Bitmap is 0.673438 of original
+Time to decompress: 0.113871
+-----------------------------------
+Threshold: 10
+Time to compress: 6.640665
+Bitmap is 0.681701 of original
+Time to decompress: 0.115278
+==================================================
+Image: night.png
+-----------------------------------
+Threshold: 2
+Time to compress: 204.474712
+Bitmap is 0.451685 of original
+Time to decompress: 0.745587
+-----------------------------------
+Threshold: 3
+Time to compress: 228.381918
+Bitmap is 0.429780 of original
+Time to decompress: 0.729195
+-----------------------------------
+Threshold: 4
+Time to compress: 232.515499
+Bitmap is 0.426938 of original
+Time to decompress: 0.707407
+-----------------------------------
+Threshold: 5
+Time to compress: 232.428357
+Bitmap is 0.428180 of original
+Time to decompress: 0.715816
+-----------------------------------
+Threshold: 6
+Time to compress: 235.436454
+Bitmap is 0.430686 of original
+Time to decompress: 0.712826
+-----------------------------------
+Threshold: 7
+Time to compress: 233.887752
+Bitmap is 0.433630 of original
+Time to decompress: 0.692490
+-----------------------------------
+Threshold: 8
+Time to compress: 192.234495
+Bitmap is 0.436309 of original
+Time to decompress: 0.690448
+-----------------------------------
+Threshold: 9
+Time to compress: 204.020865
+Bitmap is 0.438412 of original
+Time to decompress: 0.743465
+-----------------------------------
+Threshold: 10
+Time to compress: 210.050501
+Bitmap is 0.440697 of original
+Time to decompress: 0.835867
+==================================================
+Image: white.png
+-----------------------------------
+Threshold: 2
+Time to compress: 23.702136
+Bitmap is 0.000021 of original
+Time to decompress: 2.227105
+-----------------------------------
+Threshold: 3
+Time to compress: 22.497896
+Bitmap is 0.000021 of original
+Time to decompress: 2.238821
+-----------------------------------
+Threshold: 4
+Time to compress: 22.526465
+Bitmap is 0.000021 of original
+Time to decompress: 2.133585
+-----------------------------------
+Threshold: 5
+Time to compress: 22.844641
+Bitmap is 0.000021 of original
+Time to decompress: 2.155641
+-----------------------------------
+Threshold: 6
+Time to compress: 22.576465
+Bitmap is 0.000021 of original
+Time to decompress: 2.203857
+-----------------------------------
+Threshold: 7
+Time to compress: 22.556028
+Bitmap is 0.000021 of original
+Time to decompress: 2.134154
+-----------------------------------
+Threshold: 8
+Time to compress: 22.716159
+Bitmap is 0.000021 of original
+Time to decompress: 2.112820
+-----------------------------------
+Threshold: 9
+Time to compress: 22.486285
+Bitmap is 0.000021 of original
+Time to decompress: 2.120775
+-----------------------------------
+Threshold: 10
+Time to compress: 22.676007
+Bitmap is 0.000021 of original
+Time to decompress: 2.132009

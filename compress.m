@@ -60,5 +60,5 @@ compressedImg = compressedImg - 1;
 dict = dict - 1;
 
 if(option == 1)
-    dict = dictionaryReduce(img,dict);
+    [compressedImg,dict] = dictionaryReduce(compressedImg,dict);
 end
