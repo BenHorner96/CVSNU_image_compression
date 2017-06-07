@@ -26,3 +26,6 @@ while i <= size(compressedImg, 2)
 end
 
 img = reshape(img, height, width,depth);
+img = uint8(img);
+
+end

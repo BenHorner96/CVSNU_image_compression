@@ -1,4 +1,4 @@
-function [compressedImg, dict, width, height, depth] = compress(img, threshold)
+function [compressedImg, dict, width, height, depth] = compress(img, threshold, option)
 % compresses the image by finding repeating patterns and replacing the
 % patterns by values of a dict.
 % img: grayscale image to be compressed
@@ -36,7 +36,15 @@ while size(dict, 1) > prevDictSize
         elseif(hash(compressedImg(i)*s+compressedImg(i+1)) >= threshold)
             code = 256 + size(dict,1) + 1;
             hash(compressedImg(i)*s+compressedImg(i+1)) = -code;
-            dict = [dict; compressedImg(i), compressedImg(i+1)];
+            if (option == 1)
+                if (compressedImg(i) == compressedImg(i+1))
+                    dict = [dict; 0, compressedImg(i+1)];
+                else
+                    dict = [dict; compressedImg(i), compressedImg(i+1)];
+                end
+            else
+                dict = [dict; compressedImg(i), compressedImg(i+1)];
+            end
             compressedImg(i) = code;
             compressedImg(i+1) = NaN;
             i = i + 2;
@@ -50,3 +58,7 @@ end
 
 compressedImg = compressedImg - 1;
 dict = dict - 1;
+
+if(option == 1)
+    dict = dictionaryReduce(img,dict);
+end

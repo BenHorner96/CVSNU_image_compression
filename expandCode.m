@@ -7,8 +7,13 @@ function imgPart = expandCode(code, dict)
 
 if code > 255 % only codes above 255 need to be expanded, everything else is already the effective value of the image
     pos = code - 255;
-    res1 = expandCode(dict(pos, 1), dict);
-    res2 = expandCode(dict(pos, 2), dict);
+    if (dict(pos,1) >= 0)
+        res1 = expandCode(dict(pos, 1), dict);
+        res2 = expandCode(dict(pos, 2), dict);
+    else
+        res1 = repmat(expandCode(dict(pos,2),dict),1,2^(-dict(pos,1)));
+        res2 = [];
+    end
     imgPart = [res1, res2];
 else
     imgPart = code;
