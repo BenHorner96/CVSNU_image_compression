@@ -1,4 +1,4 @@
-img = imread('data/night.png');
+img = imread('data/n.png');
 %img = rgb2gray(img);
 
 %{
